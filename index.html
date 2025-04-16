@@ -6,10 +6,12 @@
     <link rel="icon" type="image/x-icon" href="image/favicon.ico" >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <title>TecMark</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary">
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
         <div class="container-fluid">
           <a href="index.html">
             <img src="image/logo.jpg" style="height: 50px;" alt="logo">
@@ -23,43 +25,42 @@
                 <a class="nav-link active text-white fs-4" aria-current="page" href="index.html">Acceuille</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white fs-4" href="service.html">Nos services</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link text-white fs-4" href="inscription.html">Insription</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white fs-4" href="boutique.html">Boutique</a>
               </li>
-              <!--<li class="nav-item dropdown ">
+              <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggl text-white fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  nos services
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item text-white fs-4" href="#">Action</a></li>
-                  <li><a class="dropdown-item text-white fs-4" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-white fs-4" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item text-dark fs-4" href="maintenance.html">Maintenance</a></li>
+                  <li><a class="dropdown-item text-dark fs-4" href="conception.html">Conception</a></li>
+                  <li><a class="dropdown-item text-dark fs-4" href="autres.html">autres</a></li>
                 </ul>
-              </li>-->
-              <li class="nav-item">
-                <a class="nav-link disabled text-white fs-4" aria-disabled="true">Disabled</a>
               </li>
             </ul>
+            <a href="panier.html"><i class="fa-solid fa-cart-shopping text-white mx-3"><span></span></i></a> 
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success bg-white text-dark" type="submit">Search</button>
             </form>
+            <i class="fa-solid fa-user mx-3 text-white"> <span class="text-muted mx-1">Hilaire</span> </i>
           </div>
         </div>
       </nav>
       <div class="container-fluid mt-5">
-        <h1>faites le meilleurs de vos choix chez nous</h1>
+        <div class="row mt-3">
+          <div class="col-md-12 ">
+            <h1 class="mt-5 mb-3 ">faites le meilleurs de vos choix chez nous</h1>
+          </div>
+        </div>
         <div class=" mb-3" style="max-width: 80%">
           <div class="row g-0">
             <div class="col-md-7">
               <div class="card-body">
-                <h5 class="card-title bg-primary text-center h1  text-white">TecMarket</h5>
+                <h5 class="card-title bg-primary text-center h1  text-white p-1">TecMarket</h5>
                 <p class="card-text">TecMarket est une entreprise qualifiée dans le devoloppement web et mobile <br> ainsi que la vente des produits informatiques <br> telque des ordinateurs de tout de marque <br>des imprimantes <br> des projecteurs <br>des ecrans <br>etc....</p>
                 <p class="card-text"><small class="text-body-secondary">Nous vous offrons le meilleur des services</small></p>
               </div>
@@ -147,12 +148,10 @@
             <h3>contactez nous  </h3>
             <a href="tel:00226 62836424">telephone:  62836424</a> <br>
             <a href="mail to: hilairebonkoungou206@gmail.com">mail:  hilairebonkoungou206@gmail.com</a>
-
           </div>
             <div class="col-md-4 mt-3 mb-5">
               <h3>Notre Situation Geographique </h3>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60349259.53341654!2d-120.74786049999999!3d-22.600543799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8e41662584685%3A0x86e0a98185200dc5!2sGoldentech!5e0!3m2!1sfr!2sbf!4v1744368725858!5m2!1sfr!2sbf" width="300" height="me-auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  
             </div>
             <div class="col-md-4 mt-3 mb-5">
               <h3> Qui nous sommes</h3>
@@ -160,8 +159,6 @@
             </div>
           </div>
         </div>
-       
-
       </footer>
       
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
